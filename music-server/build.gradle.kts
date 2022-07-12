@@ -16,13 +16,14 @@ repositories {
 }
 
 dependencies {
+    implementation("org.mybatis.generator:mybatis-generator-core:1.4.1")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-web-services")
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2")
-    implementation("com.alibaba:fastjson:1.2.76")
+    implementation("com.alibaba:fastjson:2.0.7")
     implementation("mysql:mysql-connector-java:8.0.29")
     implementation("org.apache.commons:commons-lang3:3.12.0")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")

@@ -1,15 +1,11 @@
+/*
+ * Auto-generated file. Created by MyBatis Generator
+ * Generation date: 2022-07-10T16:22:32.1904298+08:00
+ */
 package com.example.musicserver.domain
 
-import org.apache.commons.lang3.builder.ToStringBuilder
-
-
 data class Admin(
-    var id:Long,
-    var name:String,
-    var password:String
-    )
-{
-    override fun toString(): String {
-        return ToStringBuilder.reflectionToString(this)
-    }
-}
+    var id: Int? = null,
+    var name: String? = null,
+    var password: String? = null
+)
