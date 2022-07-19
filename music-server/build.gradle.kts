@@ -19,7 +19,7 @@ dependencies {
     implementation("org.mybatis.generator:mybatis-generator-core:1.4.1")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-web-services")
-    implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
+    implementation("com.fasterxml.jackson.module:jackson-module-kotlin:2.13.3")
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2")
